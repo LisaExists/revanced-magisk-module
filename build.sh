@@ -4,6 +4,7 @@ set -euo pipefail
 shopt -s nullglob
 
 source utils.sh
+source fallbacks.sh
 
 trap "abort" INT
 
